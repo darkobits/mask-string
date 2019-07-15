@@ -9,7 +9,7 @@ import maskString from 'lib/mask-token';
  *
  * @example
  *
- * mask(/foo/g)
+ * mask(/foo/g, 'foo bar') // => '*** bar'
  */
 export default function mask(pattern: string | RegExp | Array<string | RegExp>, str: string, maskChar = '*') {
   if (typeof str !== 'string') {
