@@ -3,10 +3,9 @@
 </a>
 <p align="center">
   <a href="https://www.npmjs.com/package/@darkobits/mask-string"><img src="https://img.shields.io/npm/v/@darkobits/mask-string.svg?style=flat-square"></a>
-  <a href="https://travis-ci.org/darkobits/mask-string"><img src="https://img.shields.io/travis/darkobits/mask-string.svg?style=flat-square"></a>
+  <a href="https://github.com/darkobits/mask-string/actions"><img src="https://img.shields.io/endpoint?url=https://aws.frontlawn.net/ga-shields/darkobits/mask-string&style=flat-square"></a>
   <a href="https://www.codacy.com/app/darkobits/mask-string"><img src="https://img.shields.io/codacy/coverage/62b8c910263441e09aaed24186855891.svg?style=flat-square"></a>
-  <a href="https://github.com/conventional-changelog/standard-version"><img src="https://img.shields.io/badge/conventional%20commits-1.0.0-027dc6.svg?style=flat-square"></a>
-  <a href="https://github.com/sindresorhus/xo"><img src="https://img.shields.io/badge/code_style-XO-e271a5.svg?style=flat-square"></a>
+  <a href="https://conventionalcommits.org"><img src="https://img.shields.io/badge/conventional%20commits-1.0.0-FB5E85.svg?style=flat-square"></a>
 </p>
 
 ## Install
