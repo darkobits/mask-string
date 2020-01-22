@@ -35,6 +35,6 @@
     "@darkobits/ts-unified": "^3.0.6",
     "@types/jest": "^24.0.18",
     "@types/node": "^12.7.2",
-    "@types/yargs": "^13.0.2"
+    "@types/yargs": "^15.0.1"
   }
 }
