@@ -1,6 +1,6 @@
 {
   "name": "@darkobits/mask-string",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Mask tokens in a string.",
   "license": "WTFPL",
   "author": "darkobits",
