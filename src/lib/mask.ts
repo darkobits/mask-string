@@ -1,4 +1,4 @@
-import maskString from 'lib/mask-token';
+import maskToken from 'lib/mask-token';
 
 
 /**
@@ -11,9 +11,9 @@ import maskString from 'lib/mask-token';
  *
  * mask(/foo/g, 'foo bar') // => '*** bar'
  */
-export default function mask(pattern: string | RegExp | Array<string | RegExp>, str: string, maskChar = '*') {
+export default function maskString(pattern: string | RegExp | Array<string | RegExp>, str: string, maskChar = '*') {
   if (typeof str !== 'string') {
-    throw new Error(`Expected second argument to be of type "string", got "${typeof str}".`);
+    throw new TypeError(`Expected second argument to be of type "string", got "${typeof str}".`);
   }
 
   // Array-ify pattern(s).
@@ -23,8 +23,8 @@ export default function mask(pattern: string | RegExp | Array<string | RegExp>, 
   let output = str;
 
   patterns.forEach(curPattern => {
-    if (typeof curPattern !== 'string' && (curPattern instanceof RegExp) === false) {
-      throw new Error(`Expected pattern to be of type "string" or "RegExp", got "${typeof curPattern}".`);
+    if (typeof curPattern !== 'string' && !(curPattern instanceof RegExp)) {
+      throw new TypeError(`Expected pattern to be of type "string" or "RegExp", got "${typeof curPattern}".`);
     }
 
     // RegExp-ify the current pattern.
@@ -39,7 +39,7 @@ export default function mask(pattern: string | RegExp | Array<string | RegExp>, 
 
       // Replace the matched token with a string of mask characters of the same
       // length.
-      output = output.slice(0, matchResults.index) + maskString(token, maskChar) + output.slice(matchResults.index + token.length);
+      output = output.slice(0, matchResults.index) + maskToken(token, maskChar) + output.slice(matchResults.index + token.length);
 
       // Get next set of match results.
       matchResults = regEx.exec(output);

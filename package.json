@@ -26,15 +26,9 @@
   ],
   "main": "dist/index.js",
   "scripts": {
-    "build": "nps build",
-    "test": "nps test",
-    "bump": "nps bump",
     "prepare": "nps prepare"
   },
   "devDependencies": {
-    "@darkobits/ts-unified": "^3.0.6",
-    "@types/jest": "^24.0.18",
-    "@types/node": "^12.7.2",
-    "@types/yargs": "^13.0.2"
+    "@darkobits/ts": "^0.2.0"
   }
 }
