@@ -1,11 +1,11 @@
 <a href="#top" id="top">
-  <img src="https://user-images.githubusercontent.com/441546/61192483-779c0000-a669-11e9-8b41-928707358f37.png" style="max-width: 100%;">
+  <img src="https://user-images.githubusercontent.com/441546/102348696-1a3f6900-3f57-11eb-9184-bf0d192c606e.png" style="max-width: 100%;">
 </a>
 <p align="center">
   <a href="https://www.npmjs.com/package/@darkobits/mask-string"><img src="https://img.shields.io/npm/v/@darkobits/mask-string.svg?style=flat-square"></a>
-  <a href="https://github.com/darkobits/mask-string/actions"><img src="https://img.shields.io/endpoint?url=https://aws.frontlawn.net/ga-shields/darkobits/mask-string&style=flat-square"></a>
+  <a href="https://travis-ci.com/darkobits/mask-string"><img src="https://img.shields.io/travis/darkobits/mask-string.svg?style=flat-square"></a>
   <a href="https://www.codacy.com/app/darkobits/mask-string"><img src="https://img.shields.io/codacy/coverage/62b8c910263441e09aaed24186855891.svg?style=flat-square"></a>
-  <a href="https://conventionalcommits.org"><img src="https://img.shields.io/badge/conventional%20commits-1.0.0-FB5E85.svg?style=flat-square"></a>
+  <a href="https://github.com/conventional-changelog/standard-version"><img src="https://img.shields.io/badge/conventional%20commits-1.0.0-027dc6.svg?style=flat-square"></a>
 </p>
 
 ## Install
@@ -30,10 +30,13 @@ import mask from '@darkobits/mask-string';
 const str = 'Colorless green ideas sleep furiously.';
 const masked = mask('green', str);
 // => 'Colorless ***** ideas sleep furiously.'
+```
+
+```ts
+import mask from '@darkobits/mask-string';
 
 const str = 'Twas bryllyg, and ye slythy toves did gyre and gymble in ye wabe.';
-const patterns = [/and/, /gy/];
-const masked = mask(patterns, str, '#');
+const masked = mask([/and/g, /gy/g], str, '#');
 // => 'Twas bryllyg, ### ye slythy toves did ##re ### ##mble in ye wabe.'
 ```
 
@@ -50,14 +53,12 @@ This function accepts a string and returns a string of the same length consistin
 **Example:**
 
 ```ts
-import {maskToken} from '@darkobits/mask-string';
+import { maskToken } from '@darkobits/mask-string';
 
 maskToken('foo') // => '***'
 maskToken('bar', '#') // => '###'
 ```
 
-## &nbsp;
-<p align="center">
-  <br>
-  <img width="24" height="24" src="https://cloud.githubusercontent.com/assets/441546/25318539/db2f4cf2-2845-11e7-8e10-ef97d91cd538.png">
-</p>
+<a href="#top">
+  <img src="https://user-images.githubusercontent.com/441546/102322726-5e6d4200-3f34-11eb-89f2-c31624ab7488.png" style="max-width: 100%;">
+</a>
