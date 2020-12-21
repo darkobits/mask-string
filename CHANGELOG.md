@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.3](https://github.com/darkobits/mask-string/compare/v1.0.2...v1.0.3) (2020-12-21)
+
+
+### 🏗 Chores
+
+* Update dependencies. ([fa94158](https://github.com/darkobits/mask-string/commit/fa94158f327ec79c64fb4cf66f4e5f5210ae5925))
+
 ### [1.0.2](https://github.com/darkobits/mask-string/compare/v1.0.1...v1.0.2) (2020-12-16)
 
 
