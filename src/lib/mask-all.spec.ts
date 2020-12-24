@@ -1,7 +1,7 @@
 import maskAll from './mask-all';
 
 
-describe('maskString', () => {
+describe('maskAll', () => {
   it('should return a string of the same length consisting of the mask character', () => {
     expect(maskAll('a')).toBe('*');
     expect(maskAll('bb')).toBe('**');
