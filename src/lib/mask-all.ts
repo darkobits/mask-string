@@ -4,10 +4,10 @@
  *
  * @example
  *
- * maskToken('foo') // => '***'
- * maskToken('bar', '#') // => '###'
+ * maskAll('foo') // => '***'
+ * maskAll('bar', '#') // => '###'
  */
-export default function maskToken(str: string, maskChar = '*') {
+export default function maskAll(str: string, maskChar = '*') {
   if (typeof str !== 'string') {
     throw new TypeError(`Expected first argument to be of type "string", got "${typeof str}".`);
   }

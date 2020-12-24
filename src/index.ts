@@ -1,6 +1,2 @@
-import maskString from 'lib/mask';
-import maskToken from 'lib/mask-token';
-
-
-export default maskString;
-export {maskToken};
+export { default } from 'lib/mask';
+export { default as maskAll } from 'lib/mask-all';

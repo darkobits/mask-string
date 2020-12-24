@@ -40,12 +40,12 @@ const masked = mask([/and/g, /gy/g], str, '#');
 // => 'Twas bryllyg, ### ye slythy toves did ##re ### ##mble in ye wabe.'
 ```
 
-### `maskToken`
+### `maskAll`
 
-This package additionally exports `maskToken`, which has the following signature:
+This package additionally exports a function `maskAll` which has the following signature:
 
 ```ts
-maskToken(str: string, maskChar = '*'): string
+maskAll(str: string, maskChar = '*'): string
 ```
 
 This function accepts a string and returns a string of the same length consisting entirely of the provided mask character.
@@ -53,12 +53,13 @@ This function accepts a string and returns a string of the same length consistin
 **Example:**
 
 ```ts
-import { maskToken } from '@darkobits/mask-string';
+import { maskAll } from '@darkobits/mask-string';
 
-maskToken('foo') // => '***'
-maskToken('bar', '#') // => '###'
+maskAll('foo') // => '***'
+maskAll('bar', '#') // => '###'
 ```
 
+<br />
 <a href="#top">
   <img src="https://user-images.githubusercontent.com/441546/102322726-5e6d4200-3f34-11eb-89f2-c31624ab7488.png" style="max-width: 100%;">
 </a>

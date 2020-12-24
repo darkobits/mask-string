@@ -1,4 +1,4 @@
-import maskToken from 'lib/mask-token';
+import maskAll from 'lib/mask-all';
 
 
 /**
@@ -39,7 +39,7 @@ export default function maskString(pattern: string | RegExp | Array<string | Reg
 
       // Replace the matched token with a string of mask characters of the same
       // length.
-      output = output.slice(0, matchResults.index) + maskToken(token, maskChar) + output.slice(matchResults.index + token.length);
+      output = output.slice(0, matchResults.index) + maskAll(token, maskChar) + output.slice(matchResults.index + token.length);
 
       // Get next set of match results.
       matchResults = regEx.exec(output);
