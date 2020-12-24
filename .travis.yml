@@ -1,4 +1,0 @@
-language: node_js
-node_js: 14
-script: npx nps test.coverage
-after_success: npx codacy-coverage -v < ./coverage/lcov.info
