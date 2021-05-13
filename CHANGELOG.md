@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.1](https://github.com/darkobits/mask-string/compare/v2.0.0...v2.0.1) (2021-05-13)
+
+
+### 🏗 Chores
+
+* **deps:** bump handlebars from 4.7.6 to 4.7.7 ([#95](https://github.com/darkobits/mask-string/issues/95)) ([88a25fa](https://github.com/darkobits/mask-string/commit/88a25fa613b29e075dce1186a1e61d8bc27dc22a))
+* **deps:** bump hosted-git-info from 2.8.8 to 2.8.9 ([#97](https://github.com/darkobits/mask-string/issues/97)) ([1640682](https://github.com/darkobits/mask-string/commit/16406821f6e32b3075a675dde1a0940385076a1d))
+* **deps:** bump lodash from 4.17.20 to 4.17.21 ([#96](https://github.com/darkobits/mask-string/issues/96)) ([75d6a33](https://github.com/darkobits/mask-string/commit/75d6a33979fc3f6c47907949adf596e746fa06e7))
+* **deps:** Update dependencies. ([8f6b852](https://github.com/darkobits/mask-string/commit/8f6b8525fcbdc9c7cbb8ec86b2304fb8dd13fd77))
+
+
+### 📖 Documentation
+
+* Update README. ([e025bb7](https://github.com/darkobits/mask-string/commit/e025bb77e13ee6191a95706d422c4d770876be9e))
+
 ## [2.0.0](https://github.com/darkobits/mask-string/compare/v1.0.3...v2.0.0) (2020-12-24)
 
 
