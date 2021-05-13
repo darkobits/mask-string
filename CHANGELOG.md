@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.1](https://github.com/darkobits/mask-string/compare/v2.0.0...v2.0.1) (2021-05-13)
+
+
+### 📖 Documentation
+
+* Update README. ([463ac15](https://github.com/darkobits/mask-string/commit/463ac155c2933ce88e65a4e937d02c448411a275))
+
 ## [2.0.0](https://github.com/darkobits/mask-string/compare/v1.0.3...v2.0.0) (2020-12-24)
 
 
