@@ -6,6 +6,7 @@
   <a href="https://github.com/darkobits/mask-string/actions?query=workflow%3ACI"><img src="https://img.shields.io/github/workflow/status/darkobits/mask-string/CI/master?style=flat-square"></a>
   <a href="https://app.codecov.io/gh/darkobits/mask-string/branch/master"><img src="https://img.shields.io/codecov/c/github/darkobits/mask-string/master?style=flat-square"></a>
   <a href="https://depfu.com/github/darkobits/mask-string"><img src="https://img.shields.io/depfu/darkobits/mask-string?style=flat-square"></a>
+  <a href="https://conventionalcommits.org"><img src="https://img.shields.io/static/v1?label=commits&message=conventional&style=flat-square&color=398AFB"></a>
 </p>
 
 ## Install
