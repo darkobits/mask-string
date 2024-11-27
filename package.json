@@ -2,11 +2,22 @@
   "name": "@darkobits/mask-string",
   "version": "2.0.1",
   "description": "Mask tokens in a string.",
-  "license": "WTFPL",
+  "license": "Hippocratic",
   "author": "darkobits",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/darkobits/mask-string.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "scripts": {
+    "prepare": "nr prepare"
+  },
+  "devDependencies": {
+    "@darkobits/ts": "^0.23.4"
   },
   "keywords": [
     "string",
@@ -17,18 +28,5 @@
     "secrets",
     "password",
     "passwords"
-  ],
-  "engines": {
-    "node": ">= 12.0.0"
-  },
-  "files": [
-    "dist"
-  ],
-  "main": "dist/index.js",
-  "scripts": {
-    "prepare": "nps prepare"
-  },
-  "devDependencies": {
-    "@darkobits/ts": "^0.3.3"
-  }
+  ]
 }

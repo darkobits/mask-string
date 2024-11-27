@@ -1,12 +1,42 @@
-<a href="#top" id="top">
-  <img src="https://user-images.githubusercontent.com/441546/102348696-1a3f6900-3f57-11eb-9184-bf0d192c606e.png" style="max-width: 100%;">
-</a>
 <p align="center">
-  <a href="https://www.npmjs.com/package/@darkobits/mask-string"><img src="https://img.shields.io/npm/v/@darkobits/mask-string.svg?style=flat-square"></a>
-  <a href="https://github.com/darkobits/mask-string/actions?query=workflow%3ACI"><img src="https://img.shields.io/github/workflow/status/darkobits/mask-string/CI/master?style=flat-square"></a>
-  <a href="https://app.codecov.io/gh/darkobits/mask-string/branch/master"><img src="https://img.shields.io/codecov/c/github/darkobits/mask-string/master?style=flat-square"></a>
-  <a href="https://depfu.com/github/darkobits/mask-string"><img src="https://img.shields.io/depfu/darkobits/mask-string?style=flat-square"></a>
-  <a href="https://conventionalcommits.org"><img src="https://img.shields.io/static/v1?label=commits&message=conventional&style=flat-square&color=398AFB"></a>
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://github.com/darkobits/mask-string/assets/441546/6f385550-ed9e-4933-87f7-f65c4ca11407"
+      width="100%"
+    >
+    <img
+      src="https://github.com/darkobits/mask-string/assets/441546/392e18ff-2a0c-46db-a2d3-5167d03bcb2b"
+      width="100%"
+    >
+  </picture>
+</p>
+<p align="center">
+  <a
+    href="https://www.npmjs.com/package/@darkobits/mask-string"
+  ><img
+    src="https://img.shields.io/npm/v/@darkobits/mask-string.svg?style=flat-square"
+  ></a>
+  <a
+    href="https://github.com/darkobits/mask-string/actions?query=workflow%3Aci"
+  ><img
+    src="https://img.shields.io/github/actions/workflow/status/darkobits/mask-string/ci.yml?style=flat-square"
+  ></a>
+  <a
+    href="https://depfu.com/repos/github/darkobits/mask-string"
+  ><img
+    src="https://img.shields.io/depfu/darkobits/mask-string?style=flat-square"
+  ></a>
+  <a
+    href="https://conventionalcommits.org"
+  ><img
+    src="https://img.shields.io/static/v1?label=commits&message=conventional&style=flat-square&color=398AFB"
+  ></a>
+  <a
+    href="https://firstdonoharm.dev"
+  ><img
+    src="https://img.shields.io/static/v1?label=license&message=hippocratic&style=flat-square&color=753065"
+  ></a>
 </p>
 
 ## Install
