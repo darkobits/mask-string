@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0](https://github.com/darkobits/mask-string/compare/v2.0.1...v3.0.0) (2024-11-27)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** • This package is now pure ESM. For more information, see: https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c.
+
+* **deps:** Update dependencies. ([7ffcb9b](https://github.com/darkobits/mask-string/commit/7ffcb9b84ad8441c4d0d62fbbd8fcfc7a1b84dfd))
+
 ### [2.0.1](https://github.com/darkobits/mask-string/compare/v2.0.0...v2.0.1) (2021-05-13)
 
 
